@@ -1,0 +1,24 @@
+.title{
+    padding: 10px;
+    background: blueviolet;
+    width: 99%;
+}
+h1{
+    font-size: 64px;
+    text-align: center;
+}
+.foto{
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+img{
+    width: 100%;
+}
+.descripcion{
+    background: black;
+    padding: 10px;
+}
+p{
+    color: white;
+    font-style: italic;
+}
