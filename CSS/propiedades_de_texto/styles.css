@@ -1,0 +1,24 @@
+h1{
+    color: blueviolet;
+    font-size:36px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+p{
+    color:  black;
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: 100;
+    font-style: italic;
+    text-align: start;
+    text-decoration: none;
+    text-transform: none;
+}
+strong {
+    color: red;
+    text-decoration: underline;
+}
