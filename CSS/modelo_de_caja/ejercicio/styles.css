@@ -1,0 +1,24 @@
+body{
+    background: purple;
+    font-family: sans-serif;
+    color: white;
+}
+.box{
+    background: black;
+    width: 50%;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-size: 64px;
+}
+h2{
+    text-align: center;
+    font-size: 48px;
+}
+p{
+    text-align: start;
+    font-size: 36px;
+    background: blueviolet;
+    text-align: center;
+}
