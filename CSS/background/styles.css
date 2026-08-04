@@ -1,0 +1,24 @@
+body{
+    background: #aaa;
+}
+div{
+    background: url(https://png.pngtree.com/background/20210717/original/pngtree-bicycle-cycling-world-bike-day-outdoor-background-picture-image_1427687.jpg) center / cover fixed #aaa;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+p{
+    background: #fff;
+    font-size: 24px;
+    margin: 0 5px;
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+    background: #0006;
+    margin: 0 5px;
+    padding: 15px;
+}
+
