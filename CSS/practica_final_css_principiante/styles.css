@@ -1,0 +1,29 @@
+body{
+    background: #a0f;
+    margin: 50px;
+}
+div{
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px #000;
+    padding: 20px;
+    background: linear-gradient(to bottom , #000 ,  #f0a);
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 24px
+}
+p{
+    font-size: 16px;
+}
