@@ -3,17 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulariot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="">
 </head>
 <body>
    <form >
         <div>
-           <label for="name">Nombre
-                <input type="text" id="name" placeholder="Maikel Martinez">
+            <h1>Solisitud cita medica</h1>
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                <label for="name">Nombre
+                <input type="text" required placeholder="Maikel Martinez">
             </label>
             <label for="email">Email
-                <input type="email" id="email" placeholder="usuar">
+                <input type="email" required placeholder="usuario@gmail.com">
+            </labeal>
+            <label >Edad
+                <input type="number" required dplaceholder="19">
             </label>
+            </fieldset> 
+           <label for="sintomas">Sintomas</label>
+           <textarea name="sitomas" id="sintomas" required placeholder="Resfriado"></textarea>
+            <label for="hospital">Hospital mas cercano</label>
+            <select name="hospital" id="hospital">
+                <option value="sucursal1">Hospital Pedro</option>
+                <option value="sucursal2">Hospital Juan</option>
+                <option value="sucursal3">Hospital Diego</option>
+            </select>
+            <label for="medico">Medico de la familia</label>
+            <input list="medicos" id="medico" required>
+            <datalist id="medicos">
+                <option value="Dr Diego"></option>
+                <option value="Dr Thalia"></option>
+                <option value="Dr Armando"></option>
+            </datalist>
+            <label>Tengo seguro medico
+                <input type="checkbox">
+            </label>
+            <input type="submit">
         </div>
    </form> 
 </body>
