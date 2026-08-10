@@ -12,6 +12,7 @@ div{
     color: #f00;
     border: 1px solid #000;
     padding: 15px;
+    box-shadow: 0 0 20px #000;
 }
 h1{
     text-align: center;
